@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <title>CRUD OPERATION</title>
+    
+</head>
+<body>
+    {{msg}}
+    <div id="DivTwo"> 
+        <form action="/show">
+        <input type="submit" value="Show Records">
+        </form>
+
+    </div> 
+    
+    <div id="DivOne" class="container">
+        <form action="/send" method="post">
+            {% csrf_token %}
+            <h3>EMPLOYEE_ID:<input type="text" required autofocus name="id" id="id"></h3>
+            <h3> EMAIL_ID:<input type="email" required autofocus name="email" id ="id" ></h3>
+            <h3> AGE:<input type="number" required autofocus name="number" id="id"></h3>
+            <h3> OCCUPATION: <input type = "text" required autofocus name="occupation" id="id"></h3>
+            <input type="submit" id="btn">
+
+        
+        </form>
+    </div>   
+</body>
+</html>

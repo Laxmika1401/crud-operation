@@ -1,0 +1,37 @@
+body{
+    background: url(https://wallpapertag.com/wallpaper/full/6/4/d/156445-calming-wallpaper-1920x1080-for-xiaomi.jpg)
+}
+
+#head
+{
+  text-align: center;
+  max-width: 80%;
+  margin-left: 9%;
+  padding: 0.5%;
+  color: black;
+  font-size: 35px;
+  background-color: transparent;
+  
+
+}
+table, th, td {
+    border: 5px solid black;
+    color: black;
+    text-align: center;
+    margin-left: 9%;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    
+    
+
+  }
+  tr:nth-child(even){
+    background-color: skyblue;
+  }
+  tr:nth-child(odd){
+    background-color: skyblue;
+  }
+#OneDiv{
+    text-align: center;
+}
