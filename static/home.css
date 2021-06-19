@@ -1,22 +1,30 @@
 body{
-    background:url(https://th.bing.com/th/id/Rf56b311ca3e5ed0cbbbbeae8f4ef14bb?rik=KIEUYzSyGRs5QA&riu=http%3a%2f%2fwallpaperheart.com%2fwp-content%2fuploads%2f2018%2f09%2flaptop-wallpapers-14.jpg&ehk=xXJyDGl7OSTHcQnRZpGFqHL9lD%2fJw4Mt%2fOMi%2ff6tpY4%3d&risl=&pid=ImgRaw)
+    background : url(https://th.bing.com/th/id/R1bc485bb9d50d059959ac6fc43522a55?rik=T8hAMQFdZJ4kXw&riu=http%3a%2f%2fbackgroundcheckall.com%2fwp-content%2fuploads%2f2017%2f12%2fbackground-portfolio.png&ehk=xSskT129L%2f3caVX6g1iwgRve0VF5%2bduZPtDgf6TLw6s%3d&risl=&pid=ImgRaw)
+    
+}
+h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
 }
 
 #DivOne{
-    border: 20px solid black;
-    background-color:transparent;
+    
+    background-color: transparent;
     color:black;
     max-width: fit-content;
     padding: 1%;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 10%;
     font-size: 20px;
+    border:20px solid black;
+    
 
 
 }
 #btn{
   background-color: black;
-  border: none;
+  border: black;
   color: green;
   padding: 15px 32px;
   text-align: center;
@@ -27,7 +35,9 @@ body{
 }
 #DivTwo{
     margin-left: 80%;
+    
 }
 #id{
-    margin-left: 40%;
+    margin-left: 45%;
+
 }

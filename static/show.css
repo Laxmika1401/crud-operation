@@ -1,5 +1,6 @@
 body{
-    background: url(https://wallpapertag.com/wallpaper/full/6/4/d/156445-calming-wallpaper-1920x1080-for-xiaomi.jpg)
+    background:url(https://images2.alphacoders.com/822/thumb-1920-82262.jpg)
+
 }
 
 #head
@@ -34,4 +35,8 @@ table, th, td {
   }
 #OneDiv{
     text-align: center;
+}
+#btn{
+  background-color: black;
+  color: green;
 }
