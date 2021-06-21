@@ -15,8 +15,12 @@ body{
   
 
 }
-table, th, td {
-    border: 3px solid black;
+table{
+  border: 3px solid black;
+
+}
+th, td {
+    
     color: black;
     text-align: center;
     margin-left: 9%;
@@ -28,10 +32,10 @@ table, th, td {
 
   }
   tr:nth-child(even){
-    background-color: skyblue;
+    background-color: transparent;
   }
   tr:nth-child(odd){
-    background-color: skyblue;
+    background-color: transparent;
   }
 #OneDiv{
     text-align: center;
