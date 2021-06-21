@@ -31,12 +31,7 @@ th, td {
     
 
   }
-  tr:nth-child(even){
-    background-color: transparent;
-  }
-  tr:nth-child(odd){
-    background-color: transparent;
-  }
+  
 #OneDiv{
     text-align: center;
 }
